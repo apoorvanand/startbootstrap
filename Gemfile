@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-gem "jekyll", "3.5.1"
+gem "jekyll", "4.0.0"
 
 group :jekyll_plugins do
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from', '>= 0.15.0'
+  gem 'jekyll-sitemap', '>= 1.3.0'
   gem 'jekyll-paginate'
   gem 'rouge'
 end
